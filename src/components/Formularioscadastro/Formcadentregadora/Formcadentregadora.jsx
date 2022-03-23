@@ -5,12 +5,12 @@ import { useNavigate } from 'react-router-dom';
 
 const Formcadentregadora = () => {
     const nomecompletoEntregadora = useRef()
-    const cpfEntregadora  = useRef()
-    const enderecoEntregadora  = useRef()
-    const emailEntregadora  = useRef()
-    const telefoneEntregadora  = useRef()
-    const loginEntregadora  = useRef()
-    const senhaEntregadora  = useRef()
+    const cpfEntregadora = useRef()
+    const enderecoEntregadora = useRef()
+    const emailEntregadora = useRef()
+    const telefoneEntregadora = useRef()
+    const loginEntregadora = useRef()
+    const senhaEntregadora = useRef()
 
     const navigate = useNavigate()
 
