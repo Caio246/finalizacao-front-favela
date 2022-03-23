@@ -35,6 +35,7 @@ const Formcadentregadora = () => {
     return (
         <div className="divPrincipal">
             <div className='containercadastro'>
+                <h1>Cadastro Entregadora</h1>
                 <form onSubmit={enviarDados}>
                     <div className="row">
                         <div className="form-group col-md-6">

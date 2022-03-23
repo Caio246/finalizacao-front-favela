@@ -35,6 +35,7 @@ const Formcardcliente = () => {
     return (
         <div className="divPrincipal">
             <div className='containercadastro'>
+                <h1 className='tituloh1' >Cadastro Cliente</h1>
                 <form className='form-control' onSubmit={enviarDados}>
                     <div className="row">
                         <div className="form-group col-md-6">

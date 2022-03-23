@@ -1,11 +1,12 @@
 import Formcadempresaria from "../../Formularioscadastro/Formcadempresaria/Formcadempresaria";
-function Cadempresaria(){
-    return(
+import Header from "../../Header/Header";
+
+function Cadempresaria() {
+    return (
         <>
-        <Formcadempresaria />
-                </>
-
-
+            <Header />
+            <Formcadempresaria />
+        </>
     );
 }
 export default Cadempresaria;

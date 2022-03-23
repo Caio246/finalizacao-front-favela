@@ -24,11 +24,13 @@ export default () => {
             destas comunidades, focando especificamente mulheres que residem
             dentro destas comunidades.
           </p>
-          <a href="../../Contato.jsx">
+
+          <a href="../../Contato">
             <button className="btn-quemsomos" type="submit">
               Saiba Mais
             </button>
           </a>
+
         </div>
         <iframe
           className="video"

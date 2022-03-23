@@ -1,10 +1,12 @@
 import Formcadentregadora from "../../Formularioscadastro/Formcadentregadora/Formcadentregadora";
+import Header from "../../Header/Header";
 
-function Cadentregadora(){
-    return(
+function Cadentregadora() {
+    return (
         <>
-     <Formcadentregadora/>
-     </>
+            <Header />
+            <Formcadentregadora />
+        </>
     );
 }
 export default Cadentregadora;
