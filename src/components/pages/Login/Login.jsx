@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 export function Login() {
 
   const navigate = useNavigate()
-  const handleToSignin=async()=>{
+  const handleToSignin = async () => {
     navigate('/Cadastrovazio')
   }
 
@@ -27,7 +27,7 @@ export function Login() {
           <label>Senha:</label>
           <Input type="password" placeholder="•••••••••••" />
 
-          <button className="entrar"  onClick={handleToSignin}>ENTRAR</button>
+          <button className="entrar" onClick={handleToSignin}>ENTRAR</button>
           <div className="link">
             <a href="#">Não tem uma conta?</a>
           </div>

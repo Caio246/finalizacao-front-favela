@@ -17,7 +17,7 @@
 }
 .boxEscolherPerfil img {
   height: 300px;
-  width: 300px;  
+  width: 300px;
   margin: 50px;
 }
 
@@ -28,7 +28,8 @@
 .escolherPerfilParagrafo {
   color: #fff;
 }
-.escolherPerfil button {
+
+.botaocadastro {
   border-radius: 10px;
   padding: 10px;
   background-color: #005fb2;

@@ -10,7 +10,7 @@ import Header from '../../Header/Header';
 
 function Cadastro() {
   return (
-    <>     
+    <>
       <Header />
       <main className="escolherPerfil" >
         <div >
@@ -21,7 +21,7 @@ function Cadastro() {
               <img src={Empreendedor} alt="" />
               <h4 className="escolherPerfilTitulo">Empreendedora</h4>
               <Link to="/Cadastroempresaria">
-                <button type="submit">
+                <button className="botaocadastro" type="submit">
                   Cadastrar
                 </button>
               </Link>
@@ -30,7 +30,7 @@ function Cadastro() {
               <img src={Entregador} alt="" />
               <h4 className="escolherPerfilTitulo">Entregadora</h4>
               <Link to="/Cadastroentregadora">
-                <button type="submit">
+                <button className="botaocadastro" type="submit">
                   Cadastrar
                 </button>
               </Link>
@@ -39,7 +39,7 @@ function Cadastro() {
               <img src={Cliente} alt="" />
               <h4 className="escolherPerfilTitulo">Cliente</h4>
               <Link to="/Cadastrocliente">
-                <button type="submit">
+                <button className="botaocadastro" type="submit">
                   Cadastrar
                 </button>
               </Link>
