@@ -3,6 +3,12 @@
   background-size: cover;
 }
 
+.navbareicons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .logo {
   height: 10vh;
   margin-left: 100px;
@@ -24,8 +30,7 @@
   text-decoration: none;
   color: #21429c;
   font-weight: bold;
-  padding: 3px 8px;
-  margin: 5px;
+  padding: 10px 8px;
 }
 .men a:hover {
   color: #ffae00;

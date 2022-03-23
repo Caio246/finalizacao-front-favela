@@ -1,6 +1,8 @@
 a {
   font-family: Helvetica, Arial, sans-serif;
+  color: white;
 }
+
 .main-container {
   display: flex;
   background-image: url('/src/components/img/bg-contato.jpeg');
@@ -14,6 +16,7 @@ a {
   align-items: baseline;
   margin-left: 150px;
 }
+
 .formulario h1 {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
@@ -25,12 +28,14 @@ a {
   height: 40px;
   color: black;
 }
+
 .formulario input[type='text'],
 .formulario input[type='tel'],
 .formulario input[type='email'] {
   width: 100%;
   padding: 0 5px;
 }
+
 .formulario input[type='submit'] {
   background: #21429c;
   cursor: pointer;
@@ -41,6 +46,7 @@ a {
   width: 70px;
   height: 35px;
 }
+
 .formulario textarea {
   font-family: Helvetica, Arial, sans-serif;
   width: 100%;

@@ -15,7 +15,7 @@ export default function Header() {
               <img src={Logo} alt="Logo" className="logo" />
             </Link>
             <div
-              class="collapse navbar-collapse justify-content-end"
+              class="navbareicons collapse navbar-collapse justify-content-end"
               id="navbarNavAltMarkup"
             >
               <div class="navbar-nav navbaixa">

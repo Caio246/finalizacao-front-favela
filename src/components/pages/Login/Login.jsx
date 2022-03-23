@@ -18,7 +18,7 @@ export function Login() {
     <main className="mainlogin">
       <div id="login" className="login">
         <header>
-          <img src={logo} alt="" />
+          <img className="logologin" src={logo} />
           <h1>Bem Vinda!</h1>
         </header>
         <form action="">

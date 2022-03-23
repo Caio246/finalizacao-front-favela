@@ -1,4 +1,4 @@
-.container {
+.containermain {
   background-image: url('/src/components/img/BG-formulario1200.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -12,8 +12,11 @@
 }
 
 .texto {
-  display: contents;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .textoH1 {
@@ -42,7 +45,7 @@
   justify-content: center;
   text-align: justify;
   color: #ffff;
-  padding-left: 100px;
+  width: 800px;
 }
 
 .textoParagrafo {
