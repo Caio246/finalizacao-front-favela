@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import { Input } from "../../Input";
 import logo from "../../img/logo-fv.png";
 import "./Login.css";
@@ -18,7 +18,7 @@ export function Login() {
     <main className="mainlogin">
       <div id="login" className="login">
         <header>
-          <img className="logologin" src={logo} />
+          <img className="logologin" src={logo} alt="logo" />
           <h1>Bem Vinda!</h1>
         </header>
         <form action="">

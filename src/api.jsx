@@ -1,10 +1,12 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: 'http://localhost:8080/',
+  baseURL: 'https://faveladelivery-backend.herokuapp.com/',
   headers: {
     'Access-Control-Allow-Origin': true
   }
 })
 
 export default api;
+
+/* https://faveladelivery-backend.herokuapp.com/ */
