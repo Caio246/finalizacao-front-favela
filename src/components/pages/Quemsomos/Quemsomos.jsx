@@ -3,8 +3,16 @@ import React from 'react';
 import Footer from '../../Footer/Footer';
 import Header from '../../Header/Header';
 import './Quemsomos.css';
+import { useNavigate } from "react-router-dom";
 
 export default () => {
+
+
+  const navigate = useNavigate()
+  const handleToSignin = async () => {
+    navigate('/Quemsomos')
+  }
+
   return (
     <>
       <Header />
@@ -26,7 +34,7 @@ export default () => {
           </p>
 
           <a href="../../Contato">
-            <button className="btn-quemsomos" type="submit">
+            <button className="btn-quemsomos" type="submit" onClick={handleToSignin}>
               Saiba Mais
             </button>
           </a>
