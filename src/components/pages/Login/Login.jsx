@@ -29,7 +29,7 @@ export function Login() {
 
           <button className="entrar" onClick={handleToSignin}>ENTRAR</button>
           <div className="link">
-            <a href="#">Não tem uma conta?</a>
+            <a href="/">Não tem uma conta?</a>
           </div>
           <div className="separator">OU</div>
           <button className="facebook">Continue pelo Facebook</button>
