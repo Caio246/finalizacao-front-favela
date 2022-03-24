@@ -9,12 +9,13 @@ p {
   width: 600px;
   flex-direction: column;
   padding-left: 600px;
+  padding-top: 40px;
   align-self: center;
   text-align: justify;
 }
 
 .capa {
-  background-image: url('../../img/capa.jpg');
+  background-image: url('../../img/fotocapa.jpg');
   background-repeat: no-repeat;
   height: 600px;
   width: 600px;
@@ -60,4 +61,5 @@ p {
 .mapa {
   width: 25px;
   padding: 2px;
+  height: 20px;
 }

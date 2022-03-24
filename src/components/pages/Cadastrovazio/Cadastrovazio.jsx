@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import anonimato from '../../img/anonimato.svg'
 import up from '../../img/up.svg'
 import './Cadastro.css'
+import Header from "../../Header/Header";
 
 export default () => {
 
@@ -16,6 +17,7 @@ export default () => {
 
   return (
     <>
+      <Header />
       <container className="pagina-principal">
         <div className="row">
           <h1>Sua página</h1>
@@ -70,8 +72,8 @@ export default () => {
             <lu>
               <img src={up} />
             </lu>
+            <button className="botaoentrar" onClick={handleToSignin}>ENTRAR </button>
           </div>
-          <button className="botaoentrar" onClick={handleToSignin}>ENTRAR </button>
         </div>
 
       </container>
