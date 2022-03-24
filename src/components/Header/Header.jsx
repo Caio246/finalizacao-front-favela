@@ -40,11 +40,15 @@ export default function Header() {
               </div>
               <div class="icons">
                 <ul>
+                  <a href="https://www.facebook.com/">
+                    <li>
+                      <FaFacebook />
+                    </li>
+                  </a>
                   <li>
-                    <FaFacebook />
-                  </li>
-                  <li>
-                    <FaInstagram />
+                    <a href="https://www.instagram.com/">
+                      <FaInstagram />
+                    </a>
                   </li>
                 </ul>
               </div>

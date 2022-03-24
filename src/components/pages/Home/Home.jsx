@@ -28,7 +28,7 @@ export default function Home() {
               </p>
               <div className="divBotao">
                 <button className="btnH">
-                  <a href="https://www.gmail.com/">Saiba mais</a>
+                  <a href="https://www.facebook.com/">Saiba mais</a>
                 </button>
               </div>
             </div>
